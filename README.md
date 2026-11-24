@@ -25,7 +25,7 @@ Example header: `Genre,Venue,Date,Event,**Description,**Ticket Link,***ID`
 ```bash
 pnpm install
 pnpm dev        # http://localhost:3000
-pnpm build      # production build
+pnpm build      # static build into out/ (deployed by Netlify)
 pnpm typecheck
 ```
 
